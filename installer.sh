@@ -4,11 +4,11 @@
 #
 echo " download and install plugin tv addon panel "
 
-version=2.0.7
+version=2.0.8
 OPKGINSTALL=opkg install --force-overwrite
 MY_URL="https://raw.githubusercontent.com/emil237/tvaddon/main"
-MY_IPK="enigma2-plugin-extensions-tvaddon_2.0.7_all.ipk"
-MY_DEB="enigma2-plugin-extensions-tvaddon_2.0.7_all.deb"
+MY_IPK="enigma2-plugin-extensions-tvaddon_2.0.8_all.ipk"
+MY_DEB="enigma2-plugin-extensions-tvaddon_2.0.8_all.deb"
 ##############################################################################
 # remove old emu #
 opkg remove enigma2-plugin-extensions-tvpanel 
@@ -50,6 +50,8 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
+
+
 
 
 
